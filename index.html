@@ -7,34 +7,18 @@
 </head>
 <body>
     <script>
-        var day = 1;
-        switch (day) {
-            case 1 :
-                document.write("Aujourd'hui c'est lundi")
-            break;
-            case 2 :
-            document.write("Aujourd'hui c'est mardi")
-            break;
-            case 3 :
-            document.write("Aujourd'hui c'est mercredi")
-            break;
-            case 4 :
-            document.write("Aujourd'hui c'est jeudi")
-            break;
-            case 5 : 
-            document.write("Aujourd'hui c'est vendredi")
-            break;
-            case 6 :
-            document.write("Aujourd'hui c'est samedi")
-            break;
-            case 7:
-            document.write("Aujourd'hui c'est dimanche")
-            break;
-
-            default:
-            document.write("Entrez un nombre valide");
-                break;
+        var x = 85;
+        if (x >= 80 && x <= 100) {
+            document.write("Vous êtes bon, tout est ok")
+        } else if (x >= 60 && x <= 80) {
+            document.write("C'est un peu faible")
+        } else if (x >= 40 && x <= 60) {
+            document.write("C'est trop faible")
+        } else {
+            document.write("Mauvais nombre")
         }
+        
+    
     </script>
 </body>
 </html>
