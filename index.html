@@ -7,17 +7,15 @@
 </head>
 <body>
     <script>
-        var x = 85;
-        if (x >= 80 && x <= 100) {
-            document.write("Vous êtes bon, tout est ok")
-        } else if (x >= 60 && x <= 80) {
-            document.write("C'est un peu faible")
-        } else if (x >= 40 && x <= 60) {
-            document.write("C'est trop faible")
-        } else {
-            document.write("Mauvais nombre")
-        }
-        
+        for (var a = 1; a <= 10; a++) {
+            if (a == 5) {
+                document.write("Ho : " + a + "<br>");
+                // pour faire un seul 5
+                continue;
+                // break; pour stopper après 5
+            }
+            document.write("N° : " + a + "<br>")            
+        }     
     
     </script>
 </body>
