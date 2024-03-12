@@ -7,16 +7,23 @@
 </head>
 <body>
     <script>
-        for (var a = 1; a <= 10; a++) {
-            if (a == 5) {
-                document.write("Ho : " + a + "<br>");
-                // pour faire un seul 5
-                continue;
-                // break; pour stopper après 5
-            }
-            document.write("N° : " + a + "<br>")            
-        }     
-    
+        var hello = "meta brains <br>"
+        document.write(hello)
+        document.write(typeof hello)
+        var hello2 = ["Python", "Js", "C++ <br>"]
+        document.write(hello2)
+        document.write(typeof hello2)
+        var hello3 = {
+            firstname: "Jesse <br>",
+            lastname: "Granier <br>",
+            age: 40
+        }
+        document.write(hello3)
+        document.write(typeof hello3)
+        var a = 20;
+        var b = 30;
+        var c = a + b;
+        document.write("<br>" + c)
     </script>
 </body>
 </html>
